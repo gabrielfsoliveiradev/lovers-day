@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  font-weight: normal;
+  font: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #fcd9df;
+  height: 100%;
+}
+
+#total{
+  background-color: #F9B6C1;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #7A1C29;
+  font-size: 2rem;
+}
+
+#photo-album{
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  gap: 50px;
+}
+
+.photo-box{
+  width: 100%;
+  padding: 10px;
+  aspect-ratio: 1/1;
+  background-color: #fcd9df;
+  border-radius: 10px;
+}
+
+.photo-box img {
+  width: 100%;
+  height: 100%;
+}
+
+#inscription,
+footer{
+  background-color: #fcd9df;
+}
+
+footer > p {
+  text-align: center;
+}
