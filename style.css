@@ -34,13 +34,10 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  justify-items: center;
-  gap: 50px;
+  gap: 10px;
 }
 
 .photo-box{
-  width: 100%;
-  padding: 10px;
   aspect-ratio: 1/1;
   background-color: #fcd9df;
   border-radius: 10px;
