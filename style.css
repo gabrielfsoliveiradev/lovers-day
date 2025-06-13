@@ -14,12 +14,11 @@
 
 html,
 body {
-  background: #fcd9df;
   height: 100%;
 }
 
 #total{
-  background-color: #F9B6C1;
+  background-color: #fcd9df;
 }
 
 h1,
@@ -28,6 +27,11 @@ h2 {
   color: #7A1C29;
   font-size: 2rem;
   font-family: "Parisienne", cursive;
+}
+
+header,
+#album-button{
+  background-color: #F9B6C1;
 }
 
 #photo-album{
@@ -53,6 +57,10 @@ h2 {
   border-radius: 10px;
 }
 
+#album-button{
+  padding-bottom: 15px;
+}
+
 button{
   display: block;
   border: none;
@@ -66,6 +74,10 @@ button{
 
 #main-text {
   padding: 10px;
+}
+
+footer{
+  margin-top: 50px;
 }
 
 #inscription,
