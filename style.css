@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +27,7 @@ h2 {
   text-align: center;
   color: #7A1C29;
   font-size: 2rem;
+  font-family: "Parisienne", cursive;
 }
 
 #photo-album{
