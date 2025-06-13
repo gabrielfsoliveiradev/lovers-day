@@ -38,6 +38,7 @@ h2 {
 }
 
 .photo-box{
+  padding: 10px;
   aspect-ratio: 1/1;
   background-color: #fcd9df;
   border-radius: 10px;
@@ -46,6 +47,22 @@ h2 {
 .photo-box img {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
+}
+
+button{
+  display: block;
+  border: none;
+  font-size: 1.5em;
+  padding: 10px 15px;
+  margin: 10px auto;
+  color: #F9B6C1;
+  background-color: #903d48;
+  border-radius: 20px;
+}
+
+#main-text {
+  padding: 10px;
 }
 
 #inscription,

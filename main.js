@@ -13,15 +13,20 @@ function gerarNumerosAleatoriosUnicos(inicio, fim) {
 }
 
 function generateOtherPhotos() {
-  const randomNumbers = gerarNumerosAleatoriosUnicos(1, 4)
+  const randomNumbers = gerarNumerosAleatoriosUnicos(1, 55)
   let index = 0
   const $PHOTOBOXES = document.querySelectorAll(".photo-box")
   $PHOTOBOXES.forEach((photoBox) => {
+    if (photoBox.hasChildNodes())
+      photoBox.removeChild(photoBox.querySelector("img"))
     let img = document.createElement("img")
-    img.src = `image-${randomNumbers[index]}.png`
+    img.src = `img/image-${randomNumbers[index]}.jpg`
     photoBox.appendChild(img)
     index++
   })
 }
+
+const button = document.querySelector('#button')
+button.addEventListener("click", generateOtherPhotos)
 
 generateOtherPhotos()
